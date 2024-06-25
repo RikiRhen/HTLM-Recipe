@@ -1,0 +1,42 @@
+/*
+Märks väldigt fort att jag absolut inte är en designer... 
+Har ingen aning om hur man ska få sidan och se "bra" ut så jag fokuserade bara på att generalisera formateringen.
+*/
+
+*{
+    box-sizing: border-box;
+    max-width: 1000px; 
+}
+
+body{
+    background-color:lightpink;
+}
+
+.ingredienser, .instruktioner, header p, .överkurs p{
+    border-bottom: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    margin-top: 0px;
+}
+
+p, .ingredienser ul{
+    margin-top: 0px;
+}
+
+h1, h2{
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 0px;
+    max-width: fit-content;
+}
+
+img{
+    border: 2px solid black;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+footer{
+    border-top: 2px solid black;
+    text-align: center;
+    margin-top: 50px;
+}
+
